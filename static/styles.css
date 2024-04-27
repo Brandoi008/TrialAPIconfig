@@ -16,7 +16,7 @@ p {
   line-height: 1.5;
 }
 
-/* Layout and Sections */
+
 .container {
   max-width: 800px;
   margin: 0 auto;
@@ -29,27 +29,28 @@ p {
   margin-bottom: 40px;
   border-radius: 5px;
   padding: 20px;
-  background-color: #fff;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  background-color: #173503;
+  box-shadow: 0 2px 5px rgb(117, 178, 225, 0.1);
 }
 
-/* Typography and Visuals */
+
 h1 {
   font-size: 2em;
-  color: #333;
+  color: #e9b21c;
 }
 
 h2 {
   font-size: 1.5em;
+  color: #b1a739;
 }
 
 h3 {
   font-size: 1.2em;
-  color: #666;
+  color: #b1a739;
 }
 
 a {
-  color: #333;
+  color: #94962c;
   text-decoration: none;
 }
 
@@ -57,13 +58,13 @@ a:hover {
   text-decoration: underline;
 }
 
-/* Images */
+
 img {
   max-width: 100%;
   border-radius: 5px;
 }
 
-/* Forms */
+
 form {
   display: flex;
   flex-direction: column;
@@ -76,7 +77,7 @@ label {
 
 input, textarea {
   padding: 10px;
-  border: 1px solid #ccc;
+  border: 1px solid #54c3d9;
   border-radius: 3px;
   margin-bottom: 10px;
 }
@@ -86,8 +87,8 @@ textarea {
 }
 
 button {
-  background-color: #333;
-  color: #fff;
+  background-color: #2f2b13;
+  color: #76bed0;
   padding: 10px 20px;
   border: none;
   border-radius: 5px;
@@ -99,7 +100,7 @@ button:hover {
   background-color: #222;
 }
 
-/* Buttons and Order Confirmation */
+
 button[type="button"] { /* For "Place Order" button */
   background-color: #007bff;
   border-color: #007bff;
@@ -107,7 +108,7 @@ button[type="button"] { /* For "Place Order" button */
 
 .order-confirmation {
   text-align: center;
-  color: #333;
+  color: #811cb0;
   font-weight: bold;
   margin-top: 20px;
 }
